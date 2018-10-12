@@ -1,2 +1,3 @@
 # jaba
-Libraries for C++
+Java-like Libraries for C++
+
