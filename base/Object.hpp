@@ -3,6 +3,8 @@
 
 // https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html
 
+#include "String.hpp"
+
 namespace jaba
 {
 	namespace lang
@@ -25,7 +27,7 @@ namespace jaba
 			virtual bool equals(Object obj);
 			
 			// Returns a string representation of the object.
-			// TODO: virtual String toString()
+			virtual String toString()
 			
 			// Wakes up a single thread that is waiting on this object's monitor. 
 			void notify();
