@@ -17,7 +17,9 @@ namespace jaba
 			// TODO: Class<?> getClass()
 			
 			/// <summary>
-			/// Returns a hash code value for the object. The hash code value is the same as the integer value of the object's address.
+			/// Returns a hash code value for the object. 
+			/// The hash code value is calculated by getting the string representation of the of the object's address
+			/// and then calling the STL's hash() method on that string. 
 			/// </summary>
 			/// <returns>An integer hash code value for this object.</returns>
 			virtual int hashCode() const;
